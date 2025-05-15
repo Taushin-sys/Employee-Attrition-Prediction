@@ -41,23 +41,31 @@ Trained and compared the following models:
 ### Confusion Matrix (Best Model - Tuned Random Forest):
 [[239   8]
 [ 37  10]]
-### Classification Report:
-Attrition = 1 (Yes):
-Precision: 0.56
-Recall: 0.21
-F1-score: 0.31
+
+### Classification Report (Attrition = 1 "Yes"):
+- Precision: 0.56  
+- Recall: 0.21  
+- F1-score: 0.31  
+
 ## Improvements
-- Used *SMOTE* to balance the dataset
-- Used *RandomizedSearchCV* to tune hyperparameters
+- Applied *SMOTE* to balance the dataset
+- Tuned hyperparameters using *RandomizedSearchCV*
 - Evaluated models across multiple thresholds for better minority class detection
 
 ## Installation
-Clone the repository and install the required packages:
 
+1. *Clone the repository:*
 ```bash
 git clone https://github.com/Taushin-sys/employee-attrition-prediction.git
 cd employee-attrition-prediction
+
+2.	(Optional) Create a virtual environment:
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3.	Install dependencies:
 pip install -r requirements.txt
+
 Results
 
 Best results were achieved with:
