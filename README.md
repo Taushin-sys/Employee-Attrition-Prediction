@@ -1,5 +1,7 @@
 # Employee Attrition Prediction
 
+![ROC Curve](Assets/roc_curve.png)
+
 This project focuses on predicting employee attrition using machine learning techniques. The goal is to identify employees who are likely to leave the company, helping HR teams take proactive measures.
 
 ## Table of Contents
